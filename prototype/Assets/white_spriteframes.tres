@@ -1,0 +1,60 @@
+[gd_resource type="SpriteFrames" load_steps=9 format=3 uid="uid://bosbm0qwdfxtr"]
+
+[ext_resource type="Texture2D" uid="uid://dmra7lrovawul" path="res://Assets/sbs_-_2d_chess_pack/Top Down/Pieces/White/White - Plastic 1 128x128.png" id="1_hkxf5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xdrh1"]
+atlas = ExtResource("1_hkxf5")
+region = Rect2(128, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2nla"]
+atlas = ExtResource("1_hkxf5")
+region = Rect2(0, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2832m"]
+atlas = ExtResource("1_hkxf5")
+region = Rect2(0, 384, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3b2ml"]
+atlas = ExtResource("1_hkxf5")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vunx7"]
+atlas = ExtResource("1_hkxf5")
+region = Rect2(384, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgdkg"]
+atlas = ExtResource("1_hkxf5")
+region = Rect2(384, 256, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvyvf"]
+atlas = ExtResource("1_hkxf5")
+region = Rect2(256, 256, 128, 128)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xdrh1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j2nla")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2832m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3b2ml")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vunx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgdkg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvyvf")
+}],
+"loop": true,
+"name": &"white",
+"speed": 5.0
+}]

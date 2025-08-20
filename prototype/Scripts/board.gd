@@ -11,3 +11,4 @@ func _init() -> void:
 	
 func _ready() -> void:
 	squares.set(0, piece.king + piece.white)
+	

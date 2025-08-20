@@ -6,8 +6,21 @@ const BASE_WOOD_1 = preload("res://Assets/sbs_-_2d_chess_pack/Top Down/Boards/Ba
 const BASE_WOOD_2 = preload("res://Assets/sbs_-_2d_chess_pack/Top Down/Boards/Bases/Base - Wood 2 512x544.png")
 var size = 100.0
 
+
+const white_spriteframes = preload("res://Assets/white_spriteframes.tres")
+
 func DrawPieces():
-	printerr("TODO")
+
+	for i in board.squares.size():
+		if board.squares[i] != 0:
+			print(board.squares[i])
+			match board.squares[i]:
+				0:
+					break
+				9:
+					var texture = white_spriteframes.get_frame_texture("white", 1)
+					draw_texture(texture, Vector2( floor(i/8), i % 8))
+
 
 func DrawBoard():
 	for file in range(8):
