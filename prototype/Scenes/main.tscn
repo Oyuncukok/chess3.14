@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://cbn7gji3u1kfe"]
+
+[ext_resource type="Script" uid="uid://d2rvlqytrxxx6" path="res://Scripts/main.gd" id="1_bo1nx"]
+[ext_resource type="Script" uid="uid://braawrmo7uv6h" path="res://Scripts/board.gd" id="2_8gbba"]
+[ext_resource type="Script" uid="uid://dt3e0tm75pc3l" path="res://Scripts/piece.gd" id="3_8gbba"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_bo1nx")
+
+[node name="Board" type="Node" parent="."]
+script = ExtResource("2_8gbba")
+
+[node name="Piece" type="Node" parent="."]
+script = ExtResource("3_8gbba")
