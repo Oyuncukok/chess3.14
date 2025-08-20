@@ -10,10 +10,17 @@ config_version=5
 
 [application]
 
-config/name="chess_prototype"
-config/features=PackedStringArray("4.2", "Mobile")
+config/name="Chess3.14"
+run/main_scene="uid://cbn7gji3u1kfe"
+config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=900
+window/size/viewport_height=900
 
 [rendering]
 
-renderer/rendering_method="mobile"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
