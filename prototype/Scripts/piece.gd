@@ -16,7 +16,7 @@ const black: int   = 0x10 # 16
 # eg. 01 001 == Weißer König
 #      |   |
 #      |   1 = König
-#      1000 = 8 = Weiß
+#      0b1000 = 8 = Weiß
 
 #     10 010 == Schwarzer Bauer
 #     00 000 == Leeres Feld
